@@ -500,8 +500,6 @@ main{
 #card-first--title{
    @extend %flex;
 }
-/*============Second Menu personnalisation==========*/
-
 
 /*===========Template Footer=========*/
 .footer{
@@ -528,11 +526,11 @@ main{
 
 /*========Template Mentions========*/
 .mentions-legales{
-    margin-left:10rem;
-    margin-right:10rem;
+    margin-left:1rem;
+    margin-right:1rem;
     p, a{
         display: inline-block;
-        line-height: 2rem;
+        line-height: 2.5rem;
         color:black;
         font-size: $text-size;
         background-color:inherit;

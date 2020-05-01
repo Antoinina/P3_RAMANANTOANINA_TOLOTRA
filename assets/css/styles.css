@@ -598,7 +598,6 @@ main > h3 {
   font-weight: 400;
 }
 
-/*============Second Menu personnalisation==========*/
 /*===========Template Footer=========*/
 .footer {
   width: 100%;
@@ -629,13 +628,13 @@ main > h3 {
 
 /*========Template Mentions========*/
 .mentions-legales {
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .mentions-legales p, .mentions-legales a {
   display: inline-block;
-  line-height: 2rem;
+  line-height: 2.5rem;
   color: black;
   font-size: 20px;
   background-color: inherit;
