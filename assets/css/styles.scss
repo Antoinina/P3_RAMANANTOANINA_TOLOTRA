@@ -2,6 +2,7 @@
 $primary-color: #FECB44;
 $band-color: #599B86;
 $text-size:20px;
+$breakpoint-mobile:540px;
 $menu-background-color:(
     #FCDFDB
     #FFF5FE
@@ -595,3 +596,59 @@ main{
 }
 
 /*=========Media queries========*/
+@media (max-width:$breakpoint-mobile){
+    body{
+        footer {
+            li{
+                font-size: $text-size;
+                margin:0 0.5rem!important;
+            }
+            .wiggle-effect{
+                animation-name: wiggle; 
+                animation-duration:100ms;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-in-out;
+            }   
+        }
+        aside{
+            margin-bottom: 2rem;
+            width: 50%;
+            p{
+                font-size: $text-size;
+                height: 3rem!important;
+                span{
+                    position: relative;
+                    left:11.5rem;
+                    top:111.5rem;
+                    &:nth-child(1){
+                        left:11rem;
+                    }
+                    &:nth-child(3){
+                        left:12rem;
+                    }
+                }
+            }           
+        }     
+    }
+    .menu-card{
+        margin:2rem 0;
+        .row{
+            flex-direction: column;
+            height: 50rem;
+            margin: 0;
+            li{
+                margin: 1rem;
+                width: 100%;
+                height: 100%;
+                a{
+                    font-size: $text-size;
+                }
+            }
+        }
+        .row-first{
+            margin-bottom: 0!important;
+        }
+
+    }
+    
+}

@@ -719,4 +719,61 @@ main > h3 {
 }
 
 /*=========Media queries========*/
+@media (max-width: 540px) {
+  body footer li {
+    font-size: 20px;
+    margin: 0 0.5rem !important;
+  }
+  body footer .wiggle-effect {
+    -webkit-animation-name: wiggle;
+            animation-name: wiggle;
+    -webkit-animation-duration: 100ms;
+            animation-duration: 100ms;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+  }
+  body aside {
+    margin-bottom: 2rem;
+    width: 50%;
+  }
+  body aside p {
+    font-size: 20px;
+    height: 3rem !important;
+  }
+  body aside p span {
+    position: relative;
+    left: 11.5rem;
+    top: 111.5rem;
+  }
+  body aside p span:nth-child(1) {
+    left: 11rem;
+  }
+  body aside p span:nth-child(3) {
+    left: 12rem;
+  }
+  .menu-card {
+    margin: 2rem 0;
+  }
+  .menu-card .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 50rem;
+    margin: 0;
+  }
+  .menu-card .row li {
+    margin: 1rem;
+    width: 100%;
+    height: 100%;
+  }
+  .menu-card .row li a {
+    font-size: 20px;
+  }
+  .menu-card .row-first {
+    margin-bottom: 0 !important;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
