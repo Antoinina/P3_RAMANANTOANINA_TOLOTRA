@@ -1,0 +1,19 @@
+{
+  "name": "p3_ramanantoanina_tolotra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch assets/css/styles.scss:assets/css/styles.css  --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antoinina/P3_RAMANANTOANINA_TOLOTRA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Antoinina/P3_RAMANANTOANINA_TOLOTRA/issues"
+  },
+  "homepage": "https://github.com/Antoinina/P3_RAMANANTOANINA_TOLOTRA#readme"
+}
