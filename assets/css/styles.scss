@@ -650,5 +650,64 @@ main{
         }
 
     }
-    
+    main{
+        width: 90%;
+        font-size: $text-size/1.3;
+        .card{
+            .card__first--title, #card-first--title{
+                font-size: $text-size/1.5;
+                #text-transform__title{
+                    font-size: $text-size*1.5;
+                }
+            }
+            h2{
+                font-size: $text-size*1.3;
+            }
+            table{
+                width: 100%;
+                border-spacing: 1rem;
+                caption{
+                    margin:0;
+                    font-size: $text-size;
+                }
+            }
+        }
+        #line-note, #line-delice, #line-palette{
+            margin: 0;
+            top:1.3rem;
+        }
+        .first-line-note{
+            margin: 0 10rem 0 0!important;
+        }
+        aside{
+            position: relative;
+            margin-left:4.5rem;
+            margin-bottom: 0;
+        } 
+        .menu-card__second{
+            table{
+                caption{
+                    font-size: $text-size/1.3;
+                }
+            }
+            #line-chic{
+                margin: 0;
+                top:1rem;
+                width:16%;
+            }
+            .first-line-chic{
+                margin: 0 13rem 0 0!important;
+            }
+        }
+        .menu-card__third, .menu-card__fourth/*It's the same template*/{
+            .first-line-delice{
+                margin: 0 13rem 0 0!important;
+            }
+            table{
+                .td{
+                    padding-right: 0!important;
+                }
+            }
+        }      
+    }
 }

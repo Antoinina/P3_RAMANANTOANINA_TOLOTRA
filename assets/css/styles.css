@@ -775,5 +775,55 @@ main > h3 {
   .menu-card .row-first {
     margin-bottom: 0 !important;
   }
+  main {
+    width: 90%;
+    font-size: 15.38462px;
+  }
+  main .card .card__first--title, main .card #card-first--title {
+    font-size: 13.33333px;
+  }
+  main .card .card__first--title #text-transform__title, main .card #card-first--title #text-transform__title {
+    font-size: 30px;
+  }
+  main .card h2 {
+    font-size: 26px;
+  }
+  main .card table {
+    width: 100%;
+    border-spacing: 1rem;
+  }
+  main .card table caption {
+    margin: 0;
+    font-size: 20px;
+  }
+  main #line-note, main #line-delice, main #line-palette {
+    margin: 0;
+    top: 1.3rem;
+  }
+  main .first-line-note {
+    margin: 0 10rem 0 0 !important;
+  }
+  main aside {
+    position: relative;
+    margin-left: 4.5rem;
+    margin-bottom: 0;
+  }
+  main .menu-card__second table caption {
+    font-size: 15.38462px;
+  }
+  main .menu-card__second #line-chic {
+    margin: 0;
+    top: 1rem;
+    width: 16%;
+  }
+  main .menu-card__second .first-line-chic {
+    margin: 0 13rem 0 0 !important;
+  }
+  main .menu-card__third .first-line-delice, main .menu-card__fourth .first-line-delice {
+    margin: 0 13rem 0 0 !important;
+  }
+  main .menu-card__third table .td, main .menu-card__fourth table .td {
+    padding-right: 0 !important;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
