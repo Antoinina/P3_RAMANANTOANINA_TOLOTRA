@@ -884,13 +884,97 @@ main{
             .first-line-delice, .first-line-palette{
                 margin: 0 16em 0 0!important;
             }
+            .menu-card__first{
+                table{
+                    .first-caption{
+                        &::before{
+                           bottom:34rem;
+                           width: 15%;
+                        }                   
+                    }
+                    .second-caption{
+                        &::before{
+                            bottom:4rem;
+                            width: 27.5%;
+                        }
+                    }
+                    .third-caption{
+                        &::before{
+                            bottom:-19rem;
+                            width: 35.5%;
+                        }
+                    }
+                }
+            }
             .menu-card__second{
                 table{
                     caption{
                         font-size: $text-size*1.5;
                     }
+                    .first-caption{
+                        &::before{
+                           bottom:37.5rem;
+                           width: 50.5%;
+                        }                   
+                    }
+                    .second-caption{
+                        &::before{
+                            bottom:20.5rem;
+                            width: 37%;
+                        }
+                    }
+                    .third-caption{
+                        &::before{
+                            bottom:0;
+                            width: 45%;
+                        }
+                    }
                 }
             }
+            .menu-card__third{
+                table{
+                    .first-caption{
+                        &::before{
+                           bottom:37rem;
+                           width: 50%;
+                        }                   
+                    }
+                    .second-caption{
+                        &::before{
+                            bottom:18rem;
+                            width: 47%;
+                        }
+                    }
+                    .third-caption{
+                        &::before{
+                            bottom:-0.5rem;
+                            width: 45%;
+                        }
+                    }
+                }
+            }
+            .menu-card__fourth{
+                table{
+                    .first-caption{
+                        &::before{
+                           bottom:36.5rem;
+                           width: 21%;
+                        }                   
+                    }
+                    .second-caption{
+                        &::before{
+                            bottom:15.5rem;
+                            width: 43%;
+                        }
+                    }
+                    .third-caption{
+                        &::before{
+                            bottom:-5.5rem;
+                            width: 47%;
+                        }
+                    }
+                }
+            }            
         }
     }
 }

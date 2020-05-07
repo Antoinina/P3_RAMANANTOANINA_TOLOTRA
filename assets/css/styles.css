@@ -961,8 +961,56 @@ main > h3 {
   body main .first-line-delice, body main .first-line-palette {
     margin: 0 16em 0 0 !important;
   }
+  body main .menu-card__first table .first-caption::before {
+    bottom: 34rem;
+    width: 15%;
+  }
+  body main .menu-card__first table .second-caption::before {
+    bottom: 4rem;
+    width: 27.5%;
+  }
+  body main .menu-card__first table .third-caption::before {
+    bottom: -19rem;
+    width: 35.5%;
+  }
   body main .menu-card__second table caption {
     font-size: 30px;
+  }
+  body main .menu-card__second table .first-caption::before {
+    bottom: 37.5rem;
+    width: 50.5%;
+  }
+  body main .menu-card__second table .second-caption::before {
+    bottom: 20.5rem;
+    width: 37%;
+  }
+  body main .menu-card__second table .third-caption::before {
+    bottom: 0;
+    width: 45%;
+  }
+  body main .menu-card__third table .first-caption::before {
+    bottom: 37rem;
+    width: 50%;
+  }
+  body main .menu-card__third table .second-caption::before {
+    bottom: 18rem;
+    width: 47%;
+  }
+  body main .menu-card__third table .third-caption::before {
+    bottom: -0.5rem;
+    width: 45%;
+  }
+  body main .menu-card__fourth table .first-caption::before {
+    bottom: 36.5rem;
+    width: 21%;
+  }
+  body main .menu-card__fourth table .second-caption::before {
+    bottom: 15.5rem;
+    width: 43%;
+  }
+  body main .menu-card__fourth table .third-caption::before {
+    bottom: -5.5rem;
+    width: 47%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
