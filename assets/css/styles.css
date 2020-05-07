@@ -890,4 +890,38 @@ main > h3 {
     text-align: justify;
   }
 }
+
+@media (max-width: 768px) {
+  body h1 {
+    font-size: 60px;
+  }
+  body .menu-card {
+    width: 100%;
+  }
+  body .menu-card .row li {
+    margin: 0 1rem;
+  }
+  body footer .wiggle-effect {
+    -webkit-animation-name: wiggle;
+            animation-name: wiggle;
+    -webkit-animation-duration: 100ms;
+            animation-duration: 100ms;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+  }
+  body aside {
+    width: 50%;
+  }
+  body aside p span {
+    left: 32rem;
+  }
+  body aside p span:nth-child(1) {
+    left: 31.5rem;
+  }
+  body aside p span:nth-child(3) {
+    left: 32.5rem;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

@@ -3,6 +3,7 @@ $primary-color: #FECB44;
 $band-color: #599B86;
 $text-size:20px;
 $breakpoint-mobile:540px;
+$breakpoint-tablet:768px;
 $menu-background-color:(
     #FCDFDB
     #FFF5FE
@@ -806,5 +807,43 @@ main{
                 text-align: justify;
             }
         }      
+    }
+}
+
+@media (max-width:$breakpoint-tablet){
+    body{
+        h1{
+            font-size: $text-size*3;
+        }
+        .menu-card{
+            width: 100%;
+            .row{
+                li{
+                    margin:0 1rem;
+                }
+            }
+        }
+        footer {
+            .wiggle-effect{
+                animation-name: wiggle; 
+                animation-duration:100ms;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-in-out;
+            }   
+        }
+        aside{
+            width:50%;
+            p{
+                span{
+                    left:32rem;
+                    &:nth-child(1){
+                        left:31.5rem;
+                    }
+                    &:nth-child(3){
+                        left:32.5rem;
+                    }
+                }
+            }
+        }
     }
 }
