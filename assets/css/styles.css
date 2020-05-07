@@ -577,11 +577,6 @@ main > h3 {
   font-weight: bold;
 }
 
-.card table caption::before {
-  display: none;
-  /*To make disappear the underline*/
-}
-
 .card table td {
   text-align: left;
 }
@@ -812,6 +807,18 @@ main > h3 {
     position: relative;
     margin-left: 4.5rem;
     margin-bottom: 0;
+  }
+  main .menu-card__first table .first-caption::before {
+    bottom: 19.5rem;
+    width: 15%;
+  }
+  main .menu-card__first table .second-caption::before {
+    bottom: -1rem;
+    width: 27.5%;
+  }
+  main .menu-card__first table .third-caption::before {
+    bottom: -17.5rem;
+    width: 37%;
   }
   main .menu-card__second table caption {
     font-size: 15.38462px;

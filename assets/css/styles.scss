@@ -477,9 +477,6 @@ main{
             margin:2rem;
             font-size: $text-size*1.5;
             font-weight: bold;
-            &::before{
-                display: none; /*To make disappear the underline*/
-            }
         }
         td{
             text-align: left;
@@ -686,6 +683,28 @@ main{
             position: relative;
             margin-left:4.5rem;
             margin-bottom: 0;
+        }
+        .menu-card__first{
+            table{
+                .first-caption{
+                    &::before{
+                       bottom:19.5rem;
+                       width: 15%;
+                    }                   
+                }
+                .second-caption{
+                    &::before{
+                        bottom:-1rem;
+                        width: 27.5%;
+                    }
+                }
+                .third-caption{
+                    &::before{
+                        bottom:-17.5rem;
+                        width: 37%;
+                    }
+                }
+            }
         } 
         .menu-card__second{
             table{
