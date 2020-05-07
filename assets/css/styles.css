@@ -823,6 +823,18 @@ main > h3 {
   main .menu-card__second table caption {
     font-size: 15.38462px;
   }
+  main .menu-card__second table .first-caption::before {
+    bottom: 21rem;
+    width: 53%;
+  }
+  main .menu-card__second table .second-caption::before {
+    bottom: 9.8rem;
+    width: 38%;
+  }
+  main .menu-card__second table .third-caption::before {
+    bottom: -5.3rem;
+    width: 47%;
+  }
   main .menu-card__second #line-chic {
     margin: 0;
     top: 1rem;
