@@ -845,5 +845,52 @@ main{
                 }
             }
         }
+        main{
+            width:90%;
+            aside{
+                width: 92%;
+            }
+            .card{
+                font-size:$text-size*1.3;
+                .card__first--title, #card-first--title{
+                    #text-transform__title{
+                        font-size: $text-size*3;
+                    }
+                }
+                table{
+                    width: 100%;
+                    border-spacing: 1rem;
+                    caption{
+                        margin:0;
+                        font-size: $text-size*2;
+                    }
+                }
+            }
+            #line-note, #line-delice, #line-palette{
+                margin:0;
+                top:2.4rem;
+            }
+            #line-chic{
+                margin: 0;
+                top:2rem;
+                width: 18%;
+            }
+            .first-line-note{
+                margin: 0 18rem 0 0!important;
+            }
+            .first-line-chic{
+                margin: 0 15em 0 0!important;
+            }
+            .first-line-delice, .first-line-palette{
+                margin: 0 16em 0 0!important;
+            }
+            .menu-card__second{
+                table{
+                    caption{
+                        font-size: $text-size*1.5;
+                    }
+                }
+            }
+        }
     }
 }

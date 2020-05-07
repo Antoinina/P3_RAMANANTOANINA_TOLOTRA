@@ -923,5 +923,46 @@ main > h3 {
   body aside p span:nth-child(3) {
     left: 32.5rem;
   }
+  body main {
+    width: 90%;
+  }
+  body main aside {
+    width: 92%;
+  }
+  body main .card {
+    font-size: 26px;
+  }
+  body main .card .card__first--title #text-transform__title, body main .card #card-first--title #text-transform__title {
+    font-size: 60px;
+  }
+  body main .card table {
+    width: 100%;
+    border-spacing: 1rem;
+  }
+  body main .card table caption {
+    margin: 0;
+    font-size: 40px;
+  }
+  body main #line-note, body main #line-delice, body main #line-palette {
+    margin: 0;
+    top: 2.4rem;
+  }
+  body main #line-chic {
+    margin: 0;
+    top: 2rem;
+    width: 18%;
+  }
+  body main .first-line-note {
+    margin: 0 18rem 0 0 !important;
+  }
+  body main .first-line-chic {
+    margin: 0 15em 0 0 !important;
+  }
+  body main .first-line-delice, body main .first-line-palette {
+    margin: 0 16em 0 0 !important;
+  }
+  body main .menu-card__second table caption {
+    font-size: 30px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
