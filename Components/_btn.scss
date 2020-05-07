@@ -1,0 +1,28 @@
+aside{
+    width:20%; 
+    .btn{
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom:4rem;
+        height: 5rem;
+        line-height: 5rem; //Center the text in btn
+        span{        
+            position: absolute;
+            right:40rem;
+            display: block;
+            animation-name: suspension;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: both;
+            animation-timing-function: linear;
+            &:nth-child(2){
+                right:39.5rem;
+                animation-delay: 300ms;
+            }
+            &:nth-child(3){
+                right:39rem;
+                animation-delay: 500ms;       
+            }
+        }
+    }    
+}

@@ -1,0 +1,67 @@
+
+.menu-card{
+    @extend %menu-init;  
+    .row-first{
+        margin-bottom: -35rem!important; //Eliminate space between 2 rows
+    }
+    .row{
+        @extend %flex;
+        height: 80rem;
+        margin:-15rem 0; /*Canceled the margin created by height*/
+        li{
+            box-shadow: 0 0 20px 0 hsla(90,1%,60%,.6);
+            width:50%;
+            height: 50%;
+            margin:0 2rem;
+            a{
+                font-size:$text-size*1.2;
+            }
+            h2{
+                font-weight: 400;
+            }
+            h3{
+                font-size:$text-size*2;
+            }
+        }
+        .zoom-effect:hover{
+            opacity:0.5;
+            animation-name: zoom-menu;
+            animation-duration: 500ms;
+            animation-iteration-count: 1;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+        }
+    }
+}
+
+.card{  
+    box-shadow: 0 0 20px 0 hsla(90,1%,60%,.6);
+    text-align: center;
+    margin:3rem 0;
+    padding-top:2rem;
+  
+    h2{
+        font-size: $text-size*2;
+        font-weight: 400;
+    }
+    table{
+        width: 75%;
+        border-spacing: 2rem;
+        margin:0 auto!important;
+        caption{
+            margin:2rem;
+            font-size: $text-size*1.5;
+            font-weight: bold;
+        }
+        td{
+            text-align: left;
+        }
+        td:nth-child(2){
+            font-weight: bold;
+        }
+        &:nth-child(4){
+            margin-bottom: 2rem;
+        }
+    }
+}
+

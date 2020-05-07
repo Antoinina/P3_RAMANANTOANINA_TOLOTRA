@@ -1,0 +1,27 @@
+/*=========Variables===========*/
+$primary-color: #FECB44;
+$band-color: #599B86;
+$text-size:20px;
+$breakpoint-mobile:540px;
+$breakpoint-tablet:768px;
+$menu-background-color:(
+    #FCDFDB
+    #FFF5FE
+    #EDEFEF
+    #FDFFFD
+);
+$menu-text-color:(
+    #3B1519
+    #C67616
+    #299FF8
+    #50A047
+);
+$gradient-color:(
+    nth($menu-text-color,1),
+    #704FCC, 
+    nth($menu-text-color,2),
+    nth($menu-text-color,3),
+    #0329DC,  
+    #B5F47E,
+    nth($menu-text-color,4)
+    );

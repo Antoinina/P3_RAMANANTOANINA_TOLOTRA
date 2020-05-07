@@ -1,0 +1,21 @@
+/*========Template Mentions========*/
+.mentions-legales{
+    margin-left:1rem;
+    margin-right:1rem;
+    margin-bottom:4rem;
+    p, a{
+        display: inline-block;
+        line-height: 2.5rem;
+        color:black;
+        font-size: $text-size;
+        background-color:inherit;
+    }
+    h5{
+        text-align: center;
+        font-size: $text-size*2;
+    }
+    h6{
+        font-size: $text-size*1.5;
+    }
+    
+}

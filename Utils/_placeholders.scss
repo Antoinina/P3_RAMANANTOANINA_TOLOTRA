@@ -1,0 +1,81 @@
+
+    /*========Placeholders========*/
+%flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+%body-init{
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: auto;
+    @extend %flex;
+    flex-direction: column;
+    font-family: 'Nobile', sans-serif;
+}
+%menu-init{
+    width:75%;
+    text-align: center;
+}
+%underline-hover{
+    animation-name: underliner;
+    animation-timing-function: linear;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;   
+}
+%underline-hover-note{
+    @extend %underline-hover;
+    background: linear-gradient(90deg, rgba(246,70,70,1) 15%, rgba(253,85,34,1) 38%, rgba(252,176,69,1) 100%);
+}
+%underline-hover-chic{
+    @extend %underline-hover;
+    background: linear-gradient(321deg, nth($gradient-color,2) 10%, nth($gradient-color,3) 60%);
+}
+%underline-hover-delice{
+    @extend %underline-hover;
+    background: linear-gradient(321deg, nth($gradient-color,4) 25%, nth($gradient-color,5) 52%);
+}
+%underline-hover-palette{
+    @extend %underline-hover;
+    background: linear-gradient(321deg, nth($gradient-color,6) 29%, nth($gradient-color,7) 59%);
+}
+%caption-underline-note{
+    content: "";
+    height: 0.3rem;
+    position: absolute;
+    &:hover{
+        @extend %underline-hover-note;
+     } 
+}
+%caption-underline-chic{
+    content: "";
+    height: 0.3rem;
+    position: absolute;
+    &:hover{
+        @extend %underline-hover-chic;
+     }
+}
+%caption-underline-delice{
+    content: "";
+    height: 0.3rem;
+    position: absolute;
+    &:hover{
+        @extend %underline-hover-delice;
+     }
+}
+%caption-underline-palette{
+    content: "";
+    height: 0.3rem;
+    position: absolute;
+    &:hover{
+        @extend %underline-hover-palette;
+     }
+}
+
+%svg-template{
+    width: 18%;
+    position: relative;
+    top:4rem;
+    margin:0 10rem;
+}

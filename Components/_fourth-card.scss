@@ -1,0 +1,41 @@
+.menu-card__fourth{
+    background-color: nth($menu-background-color, 4);
+    h2{
+        font-family: 'Kaushan Script', cursive;
+        background: linear-gradient(321deg, nth($gradient-color,6) 29%, nth($gradient-color,7) 59%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    h3{
+        font-family: 'Tillana', cursive;
+        color:nth($menu-text-color, 4);
+    }
+    table{ //Personnalisation of menu card
+        font-family: 'Kalam', cursive;
+        caption{
+
+            font-weight: 400!important;
+        }
+        .first-caption{
+            &::before{
+               @extend %caption-underline-palette;
+               bottom:20.3rem;
+               width: 8%;
+            }                   
+        }
+        .second-caption{
+            &::before{
+                @extend %caption-underline-palette;
+                bottom:-1.3rem;
+                width: 16.3%;
+            }
+        }
+        .third-caption{
+            &::before{
+                @extend %caption-underline-palette;
+                bottom:-22.8rem;
+                width: 17.5%;
+            }
+        }
+    } 
+}

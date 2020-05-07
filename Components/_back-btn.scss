@@ -1,0 +1,17 @@
+main{
+    width: 70%;
+    aside{
+        @extend %body-init; 
+        .back-btn{ //Change the back button template
+            position: relative;
+            margin-left:auto;
+            margin-right: auto;
+            width: 150%;
+            margin-bottom: 7rem;
+        }
+    }
+    &>h3{ //Title in first menu
+        text-align: center;
+        font-size: $text-size*2;
+    }
+}

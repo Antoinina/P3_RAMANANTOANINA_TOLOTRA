@@ -1,0 +1,49 @@
+.menu-card__second{
+    background-color: nth($menu-background-color, 2);
+    h2{
+        font-family: 'Croissant One', cursive;
+        background: linear-gradient(321deg, nth($gradient-color,2) 30%, nth($gradient-color,3) 60%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    h3{
+        font-family: 'Libre Baskerville', serif;
+        color:nth($menu-text-color, 2);
+    } 
+    i{
+        visibility: hidden;/*Mettre au même niveau les 2 menus adjacent*/
+    }
+    table{ //Personnalisation of menu card
+        font-family: 'Libre Baskerville', serif;
+        &:nth-child(3){
+            color:nth($menu-text-color,2 );
+        }
+        &:nth-child(6){
+            color:#A6699A;
+        }
+        &:nth-child(9){
+            color:nth($gradient-color,2 );
+        }
+        .first-caption{
+            &::before{
+               @extend %caption-underline-chic;
+               bottom:20.5rem;
+               width: 25.5%;
+            }                   
+        }
+        .second-caption{
+            &::before{
+                @extend %caption-underline-chic;
+                bottom:0rem;
+                width: 18.4%;
+            }
+        }
+        .third-caption{
+            &::before{
+                @extend %caption-underline-chic;
+                bottom:-20.8rem;
+                width: 22.6%;
+            }
+        }
+    } 
+}

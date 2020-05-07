@@ -1,0 +1,57 @@
+.menu-card__first{
+    background-color: nth($menu-background-color, 1);
+    h2, h3{
+        color:nth($menu-text-color, 1);
+    }
+    h2{
+        font-family:'Devonshire', cursive;
+    }
+    h3{
+        text-transform: uppercase; 
+        font-family: 'Tillana', cursive;
+    }
+    .fas{
+        background: rgb(246,70,70);
+        background: -moz-linear-gradient(90deg, rgba(246,70,70,1) 15%, rgba(253,85,34,1) 38%, rgba(252,176,69,1) 100%);
+        background: -webkit-linear-gradient(90deg, rgba(246,70,70,1) 15%, rgba(253,85,34,1) 38%, rgba(252,176,69,1) 100%);
+        background: linear-gradient(90deg, rgba(246,70,70,1) 15%, rgba(253,85,34,1) 38%, rgba(252,176,69,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f64646",endColorstr="#fcb045",GradientType=1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    table{ //Personnalisation of menu card
+        font-family: 'Kalam', cursive;
+        .first-caption{
+            &::before{
+               @extend %caption-underline-note;
+               bottom:20rem;
+               width: 5.5%;
+            }                   
+        }
+        .second-caption{
+            &::before{
+                @extend %caption-underline-note;
+                bottom:-6.8rem;
+                width: 10.3%;
+            }
+        }
+        .third-caption{
+            &::before{
+                @extend %caption-underline-note;
+                bottom:-29.5rem;
+                width: 13.3%;
+            }
+        }
+    } 
+}
+
+#text-transform__title{
+    text-transform: none;
+    margin:1rem;
+    font-family:'Devonshire', cursive;
+    font-size: $text-size*2;
+    font-weight: 400;
+}
+#card-first--title{
+   @extend %flex;
+}

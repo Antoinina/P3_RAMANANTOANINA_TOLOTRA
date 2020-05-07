@@ -1,0 +1,43 @@
+.menu-card__third{
+    background-color: nth($menu-background-color, 3);
+    h2{
+        font-family: 'Parisienne', cursive;
+        background: linear-gradient(321deg, nth($gradient-color,4) 25%, nth($gradient-color,5) 52%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    h3{
+        font-family: 'Tillana', cursive;
+        color:nth($menu-text-color, 3);
+    } 
+    table{ //Personnalisation of menu card
+        font-family: 'Kalam', cursive;
+        caption{
+            font-weight: 400!important;
+        }
+        .td{
+            padding-right: 17rem!important; //Put the price more to right
+        }
+        .first-caption{
+            &::before{
+               @extend %caption-underline-delice;
+               bottom:20.5rem;
+               width: 19.5%;
+            }                   
+        }
+        .second-caption{
+            &::before{
+                @extend %caption-underline-delice;
+                bottom:-1rem;
+                width: 18%;
+            }
+        }
+        .third-caption{
+            &::before{
+                @extend %caption-underline-delice;
+                bottom:-22.5rem;
+                width: 17.3%;
+            }
+        }
+    }
+}

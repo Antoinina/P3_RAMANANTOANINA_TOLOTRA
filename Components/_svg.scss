@@ -1,0 +1,46 @@
+//Note card svg
+.note-menu__svg{
+    fill:nth($menu-text-color,1);
+}
+#line-note{
+    width: 24%;
+    position: relative;
+    top:4rem;
+    margin:0 8rem;
+}
+
+//Chic card svg
+.chic-menu__svg--first{
+    fill:nth($menu-text-color,2);
+}
+.chic-menu__svg--second{
+    fill:#A6699A;
+}
+.chic-menu__svg--third{
+    fill:nth($gradient-color,2);
+}
+#line-chic{
+    @extend %svg-template;
+    width: 13%;
+    margin:0 12rem;
+}
+
+//Délice card svg
+.delice-menu__svg--first{
+    fill: nth($gradient-color,5);
+}
+.delice-menu__svg--second{
+    fill: #0770F2;
+}
+.delice-menu__svg--third{
+    fill: nth($menu-text-color,3);
+}
+#line-delice{
+    @extend %svg-template;
+}
+
+//Palette card svg
+.cls-1{fill:#8dd368;}.cls-2{fill:#4a9c42;}.cls-3{fill:#9fe46f;}.cls-4{fill:#77c35a;}.cls-5{fill:#5aa94b;}.cls-6{fill:#69b554;}.cls-7{fill:#b5f47e;}
+#line-palette{
+    @extend %svg-template;
+}
