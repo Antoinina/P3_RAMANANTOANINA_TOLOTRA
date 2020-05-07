@@ -529,6 +529,7 @@ main{
 .mentions-legales{
     margin-left:1rem;
     margin-right:1rem;
+    margin-bottom:4rem;
     p, a{
         display: inline-block;
         line-height: 2.5rem;
@@ -790,7 +791,7 @@ main{
             }
         }
         .mentions-legales{
-            margin:0;
+            margin:0 0 2rem 0;
             
             h5{
                 margin:2rem;

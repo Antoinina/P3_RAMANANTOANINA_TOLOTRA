@@ -630,6 +630,7 @@ main > h3 {
 .mentions-legales {
   margin-left: 1rem;
   margin-right: 1rem;
+  margin-bottom: 4rem;
 }
 
 .mentions-legales p, .mentions-legales a {
@@ -874,7 +875,7 @@ main > h3 {
     width: 48%;
   }
   main .mentions-legales {
-    margin: 0;
+    margin: 0 0 2rem 0;
   }
   main .mentions-legales h5 {
     margin: 2rem;
