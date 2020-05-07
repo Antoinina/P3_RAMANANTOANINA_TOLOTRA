@@ -477,6 +477,9 @@ main{
             margin:2rem;
             font-size: $text-size*1.5;
             font-weight: bold;
+            &::before{
+                display: none; /*To make disappear the underline*/
+            }
         }
         td{
             text-align: left;
@@ -707,6 +710,22 @@ main{
                 .td{
                     padding-right: 0!important;
                 }
+            }
+        }
+        .mentions-legales{
+            margin:0;
+            
+            h5{
+                margin:2rem;
+                font-size: $text-size*1.2;
+            }
+            h6{
+                font-size:$text-size;
+            }
+            p, a, li{
+                font-size: $text-size/1.5;
+                line-height: 1rem;
+                text-align: justify;
             }
         }      
     }

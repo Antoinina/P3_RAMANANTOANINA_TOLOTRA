@@ -577,6 +577,11 @@ main > h3 {
   font-weight: bold;
 }
 
+.card table caption::before {
+  display: none;
+  /*To make disappear the underline*/
+}
+
 .card table td {
   text-align: left;
 }
@@ -824,6 +829,21 @@ main > h3 {
   }
   main .menu-card__third table .td, main .menu-card__fourth table .td {
     padding-right: 0 !important;
+  }
+  main .mentions-legales {
+    margin: 0;
+  }
+  main .mentions-legales h5 {
+    margin: 2rem;
+    font-size: 24px;
+  }
+  main .mentions-legales h6 {
+    font-size: 20px;
+  }
+  main .mentions-legales p, main .mentions-legales a, main .mentions-legales li {
+    font-size: 13.33333px;
+    line-height: 1rem;
+    text-align: justify;
   }
 }
 /*# sourceMappingURL=styles.css.map */
