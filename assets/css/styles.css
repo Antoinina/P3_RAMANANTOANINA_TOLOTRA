@@ -849,6 +849,30 @@ main > h3 {
   main .menu-card__third table .td, main .menu-card__fourth table .td {
     padding-right: 0 !important;
   }
+  main .menu-card__third table .first-caption::before, main .menu-card__fourth table .first-caption::before {
+    bottom: 20.8rem;
+    width: 52%;
+  }
+  main .menu-card__third table .second-caption::before, main .menu-card__fourth table .second-caption::before {
+    bottom: 8.3rem;
+    width: 48%;
+  }
+  main .menu-card__third table .third-caption::before, main .menu-card__fourth table .third-caption::before {
+    bottom: -7rem;
+    width: 46%;
+  }
+  main .menu-card__fourth table .first-caption::before {
+    bottom: 20.7rem;
+    width: 21%;
+  }
+  main .menu-card__fourth table .second-caption::before {
+    bottom: 5.5rem;
+    width: 44%;
+  }
+  main .menu-card__fourth table .third-caption::before {
+    bottom: -9.8rem;
+    width: 48%;
+  }
   main .mentions-legales {
     margin: 0;
   }
