@@ -792,6 +792,9 @@ body p {
     margin: 0;
     font-size: 20px;
   }
+  main .card table caption::before {
+    display: none;
+  }
   main #line-note, main #line-delice, main #line-palette {
     margin: 0;
     top: 1.3rem;
@@ -938,6 +941,9 @@ body p {
     margin: 0;
     font-size: 40px;
   }
+  body main .card table caption::before {
+    display: none;
+  }
   body main #line-note, body main #line-delice, body main #line-palette {
     margin: 0;
     top: 2.4rem;
@@ -956,56 +962,107 @@ body p {
   body main .first-line-delice, body main .first-line-palette {
     margin: 0 16em 0 0 !important;
   }
-  body main .menu-card__first table .first-caption::before {
-    bottom: 34rem;
-    width: 15%;
+  body main .menu-card__second table caption {
+    font-size: 30px;
   }
-  body main .menu-card__first table .second-caption::before {
-    bottom: 4rem;
-    width: 27.5%;
+}
+
+/*For tablet pro*/
+@media (min-width: 1024px) and (max-width: 1400px) {
+  body h1 {
+    font-size: 60px;
   }
-  body main .menu-card__first table .third-caption::before {
-    bottom: -19rem;
-    width: 35.5%;
+  body .menu-card {
+    width: 100%;
+  }
+  body .menu-card .row li {
+    margin: 0 1rem;
+  }
+  body .menu-card .row .menu-card__second h2 {
+    font-size: 42px;
+  }
+  body footer .wiggle-effect {
+    -webkit-animation-name: wiggle;
+            animation-name: wiggle;
+    -webkit-animation-duration: 100ms;
+            animation-duration: 100ms;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+  }
+  body aside p {
+    width: 120%;
+  }
+  body aside p span {
+    left: 32rem;
+    top: 105.5rem;
+  }
+  body aside p span:nth-child(1) {
+    left: 31.5rem;
+  }
+  body aside p span:nth-child(3) {
+    left: 32.5rem;
+  }
+  body main {
+    width: 90%;
+  }
+  body main aside {
+    width: 92%;
+  }
+  body main .card {
+    font-size: 26px;
+  }
+  body main .card .card__first--title #text-transform__title, body main .card #card-first--title #text-transform__title {
+    font-size: 60px;
+  }
+  body main .card table {
+    width: 100%;
+    border-spacing: 1rem;
+  }
+  body main .card table caption {
+    margin: 0;
+    font-size: 40px;
+  }
+  body main .card table caption::before {
+    display: none;
+  }
+  body main #line-note, body main #line-palette, body main #line-delice {
+    margin: 0;
+    top: 2.4rem;
+    width: 30%;
+  }
+  body main #line-delice, body main #line-palette {
+    width: 20%;
+  }
+  body main #line-chic {
+    margin: 0;
+    top: 2rem;
+    width: 22%;
+  }
+  body main .first-line-note {
+    margin: 0 18rem 0 0 !important;
+  }
+  body main .first-line-chic {
+    margin: 0 18em 0 0 !important;
+  }
+  body main .first-line-delice, body main .first-line-palette {
+    margin: 0 20em 0 0 !important;
   }
   body main .menu-card__second table caption {
     font-size: 30px;
   }
-  body main .menu-card__second table .first-caption::before {
-    bottom: 37.5rem;
-    width: 50.5%;
+}
+
+@media (min-width: 1366px) and (max-width: 1400px) {
+  body aside p span {
+    left: 43rem;
   }
-  body main .menu-card__second table .second-caption::before {
-    bottom: 20.5rem;
-    width: 37%;
+  body aside p span:nth-child(1) {
+    left: 42rem;
   }
-  body main .menu-card__second table .third-caption::before {
-    bottom: 0;
-    width: 45%;
-  }
-  body main .menu-card__third table .first-caption::before {
-    bottom: 37rem;
-    width: 50%;
-  }
-  body main .menu-card__third table .second-caption::before {
-    bottom: 18rem;
-    width: 47%;
-  }
-  body main .menu-card__third table .third-caption::before {
-    bottom: -0.5rem;
-    width: 45%;
-  }
-  body main .menu-card__fourth table .first-caption::before {
-    bottom: 36.5rem;
-    width: 21%;
-  }
-  body main .menu-card__fourth table .second-caption::before {
-    bottom: 15.5rem;
-    width: 43%;
-  }
-  body main .menu-card__fourth table .third-caption::before {
-    bottom: -5.5rem;
-    width: 47%;
+  body aside p span:nth-child(3) {
+    left: 44rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */

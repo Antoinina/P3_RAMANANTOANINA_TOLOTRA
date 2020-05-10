@@ -71,6 +71,9 @@
                 caption{
                     margin:0;
                     font-size: $text-size;
+                    &::before{
+                        display: none;
+                    }
                 }
             }
         }
